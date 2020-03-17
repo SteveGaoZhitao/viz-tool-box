@@ -14,7 +14,17 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-#import plotly.plotly as py
+
+#plotly stype
+import plotly.io as pio
+
+#pio.templates.default = "simple_white"
+#px.defaults.template = "ggplot2"
+#px.defaults.color_continuous_scale = px.colors.sequential.Blackbody
+#px.defaults.width = 600
+#px.defaults.height = 400
+
+
 
 #figsize for matplotlib and related
 from IPython.core.pylabtools import figsize

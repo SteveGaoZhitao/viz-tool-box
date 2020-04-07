@@ -24,6 +24,11 @@ import plotly.io as pio
 #px.defaults.width = 600
 #px.defaults.height = 400
 
+# plotly notebook mode
+from plotly.offline import plot, iplot, init_notebook_mode
+
+# Make plotly work with Jupyter notebook
+init_notebook_mode()
 
 
 #figsize for matplotlib and related
